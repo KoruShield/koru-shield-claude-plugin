@@ -1,0 +1,5 @@
+{
+  "name": "koru-shield-marketplace",
+  "owner": "KoruShield",
+  "plugins": [{ "name": "koru-shield", "source": "./" }]
+}
