@@ -13,7 +13,7 @@ In Claude Code, add the marketplace and install the plugin:
 
 ## Configure authentication
 
-Create an API key in the dashboard at [my.korushield.com](https://my.korushield.com) under **API Keys**. Configure the Koru Shield MCP server with the key using your MCP client's secure environment configuration. For the local server, set `KORU_SHIELD_API_KEY` and run `npx -y @korushield/mcp-server`. The hosted MCP endpoint is `https://mcp.korushield.com/mcp` and uses a Bearer token. Never commit your API key or paste it into shared source files.
+Create an API key in the dashboard at [my.korushield.com](https://my.korushield.com) under **API Keys**. Configure the Koru Shield MCP server with the key using your MCP client's secure environment configuration. For the local server, set `KORU_SHIELD_API_KEY` and run `npx -y korushield-mcp-server`. The hosted MCP endpoint is `https://mcp.korushield.com/mcp` and uses a Bearer token. Never commit your API key or paste it into shared source files.
 
 The MCP server source and setup details are available at [github.com/KoruShield/koru-shield-mcp](https://github.com/KoruShield/koru-shield-mcp).
 
