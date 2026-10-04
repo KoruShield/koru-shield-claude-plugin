@@ -11,7 +11,7 @@ Koru Shield is a DNS-based internet security and parental control service. It le
 
 There are two ways to interact with the service:
 
-1. **MCP server.** Run the local server with `npx -y @korushield/mcp-server` and provide the `KORU_SHIELD_API_KEY` environment variable, or connect to the hosted remote MCP server at `https://mcp.korushield.com/mcp` using a Bearer token.
+1. **MCP server.** Run the local server with `npx -y korushield-mcp-server` and provide the `KORU_SHIELD_API_KEY` environment variable, or connect to the hosted remote MCP server at `https://mcp.korushield.com/mcp` using a Bearer token.
 2. **Direct REST API.** Send requests to `https://my.korushield.com/api` with the header `Authorization: Bearer <key>`.
 
 Create or copy an API key in the Koru Shield dashboard at `https://my.korushield.com` under **API Keys**. Treat the key as a secret. Do not include it in prompts, source files, logs, or shared output. When a client prompts for authentication, provide the key through that client's secure configuration flow.
